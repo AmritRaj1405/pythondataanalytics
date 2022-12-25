@@ -5,7 +5,7 @@ print(a)
 #getting all keys from dictionary 
 print(a.keys())
 #getting all values from dictionary
-print(a.values())
+print(a.values())                                                                                                                                     
 #getting all items from the dictionary as a list of tuple 
 print(a.items())
 #nested dict 
@@ -18,7 +18,7 @@ print(b)
 print("keys of b=>",b.keys())
 print("values of b=>",b.values())
 
-from pprint import pp #for systemic way of data(prety print)
+from pprint import pp #for systametic way of data(prety print)
 pp(b)
 
 #accessing a value from a dict 
@@ -33,12 +33,12 @@ print(a.get('city'))#none
 print(a.get('city','not found')) #default value can be specified (comma(,) is uesd in the place of collan(:))
 print(a.get('name','not found'))
 
-#traversing a dict
+#traversing a dict   
 # style1 
 for key in a: 
     print(key,a[key])
 #style 2
-for key , value in a.items():
+for key , value in a.items():       
     print(key,value)
 
 #only value

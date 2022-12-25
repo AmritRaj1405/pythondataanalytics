@@ -13,7 +13,7 @@ y=[22,44,33]
 x.extend(y)
 print(x)
 #adding data at the mid or any position 
-x.insert(2,9)
+x.insert(88,9)
 print(x)
-x.insert(10,'hello')
+x.insert(66,'hello')
 print(x)
