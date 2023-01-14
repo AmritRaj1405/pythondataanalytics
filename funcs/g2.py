@@ -22,7 +22,7 @@ def draw():
 # pgzrun.go()
 
 #screen per chalta rhega  
-# def update():   
+# def update():    
 #     square.x +=2
 #     if square.x>width:
 #         square.x=0
