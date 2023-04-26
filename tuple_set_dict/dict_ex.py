@@ -1,4 +1,4 @@
-#creating a dictionary
+  #creating a dictionary
 a={'name':'shiva','age':6,'class':'first'}
 print(a)
 

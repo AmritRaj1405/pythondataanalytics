@@ -23,17 +23,17 @@ def draw():
 
 def check_boundary(box,speed):
     if box.right>WIDTH or box.left<0:
-        sounds.metal.play()
+        # sounds.metal.play()
         return -speed
     return speed
     if box1.colliderect(box2):
-        sounds.metal.play()
+        # sounds.metal.play()
         return -speed
     return speed
 
     #this is used for y axis
     if box.top<0 or box.bottom > height:
-        sounds.metal.play()
+        # sounds.metal.play()
         return -speed
     return speed
 
@@ -46,7 +46,7 @@ def update():
     b2x=check_boundary(box2,b2x)
     b3y=check_boundary(box3,b3y)
     if box1.colliderect(box2):#this is used for touch boxes each other
-          sounds.metal.play()
+        #   sounds.metal.play()
           b1x,b2x=-b1x,-b2x
     if box1.colliderect(box3):
         b1x=-b1x
